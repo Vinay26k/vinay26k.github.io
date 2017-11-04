@@ -1,37 +1,26 @@
-## Welcome to GitHub Pages
+## Welcome to my Github Page!
+### Repos
+* [Python](https://github.com/Vinay26k/python)
+* [cpp](https://github.com/Vinay26k/cpp)
+* [java](https://github.com/Vinay26k/Java)
+* [Django](https://github.com/Vinay26k/Django)
+* [Artificial Intelligence](https://github.com/Vinay26k/Artificial-Intelligence/)
 
-You can use the [editor on GitHub](https://github.com/Vinay26k/vinay26k.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+### About Me
+**Code**
+<pre><code>import VinayNarayana as vinay
+print(vinay.AboutMe())
+</code></pre>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+**Output**
+* [**Resume**](http://vinayresume.pythonanywhere.com/)
+* Pure <strong>pythonist</strong> coz in love with py.
+* I do code in **C++** and **Java**.
+* Don't ask me about interests in **Artificial Intelligence** and **Machine Learning**, ofcourse that's a **_secret crush_**.
+* I'm a self-taught programmer.
+* About Artificial Intelligence works, I referred many articles, videos, books and want to provide easy way for other people to understand.
+* I might make errors, mistakes because I'm not a professional at this content, feel free to **correct me**.
+* **I believe in teaching others, enhances knowledge about concepts**.
+* **_Open for Contributions, feel free to pull and merge requests_**.
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Vinay26k/vinay26k.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+[_Twitter_](https://twitter.com/vinay26k)   [_LinkedIn_](https://www.linkedin.com/in/vinay26k/)
