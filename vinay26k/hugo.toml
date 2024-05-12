@@ -1,0 +1,92 @@
+baseURL = 'https://vinay26k.github.io/'
+languageCode = 'en-us'
+title = 'Vinay Kumar N'
+theme = 'Typo'
+
+[taxonomies]
+tag = 'tags'
+
+
+[params]
+theme = 'auto'
+
+# Intro on main page, content in markdown
+# homeIntroTitle = 'Hi!'
+homeIntroContent = """
+I'm a seasoned professional with _5+_ years of experience in _software_ and _data engineering_, with a proven track record of delivering efficient and high-quality solutions using various cloud providers' data stacks.
+
+As a Data Engineer at a top FinTech company in Berlin, Germany, I build _data engineering_ and _governance_ frameworks.
+
+**Areas of expertise**: 
+
+***Data Processing at Scale***
+
+* Designing and optimizing _data processing pipelines_ to ensure _scalability_, _reliability_, and _extensibility_
+* Developing _batch_, _near-real-time_, and _real-time data processing pipelines_
+* Developing custom connectors for different sources if readily not available
+* Ensuring solution quality and reliability through: 
+   * _Unit testing_, _logging_ & _monitoring_, _data observability_
+
+***Data Platforms***
+
+* Developing in-house _data platforms_ using open-source tools, allowing for increased control over the infrastructure maintenance and reduced vendor lock-in risks
+  
+***Data Governance***
+* Building frameworks for _Data Governance_ initiatives, including _data discovery_ and _access management_
+"""
+
+# Collection to display on home
+# homeCollectionTitle = 'Posts'
+# homeCollection = 'posts'
+
+# Lists parameters
+paginationSize = 100
+listSummaries = true
+listDateFormat = '2 Jan 2006'
+
+# Breadcrumbs
+breadcrumbs = true
+
+# Social icons
+[[params.social]]
+name = "linkedin"
+url = "https://www.linkedin.com/in/vinay26k/"
+
+[[params.social]]
+name = "github"
+url = "https://github.com/vinay26k"
+
+[[params.social]]
+name = "medium"
+url = "https://medium.com/@vinay26k"
+
+# [[params.social]]
+# name = "leetcode"
+# url = "https://leetcode.com/vinay26k/"
+
+# Main menu pages
+[[params.menu]]
+name = "home"
+url = "/"
+
+# [[params.menu]]
+# name = "experience"
+# url = "/experience"
+
+# [[params.menu]]
+# name = "posts"
+# url = "/posts"
+
+# [[params.menu]]
+# name = "about"
+# url = "/about"
+
+# [[params.menu]]
+# name = "tags"
+# url = "/tags"
+
+
+# Syntax highligth on code blocks
+[markup]
+[markup.highlight]
+style = 'algol'
