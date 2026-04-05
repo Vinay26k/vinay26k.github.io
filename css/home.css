@@ -1,0 +1,65 @@
+.home-section {
+  margin: 2.5rem 0;
+}
+
+.focus-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.focus-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  min-height: 220px;
+  padding: 1.1rem 1.15rem 1rem;
+  border: 1px solid #e7e3da;
+  border-radius: 14px;
+  background: linear-gradient(180deg, rgba(249, 247, 242, 0.82), rgba(255, 255, 255, 0.98));
+  transition: transform 0.18s ease, border-color 0.18s ease, box-shadow 0.18s ease;
+}
+
+.focus-card:hover {
+  transform: translateY(-4px);
+  border-color: #ded6c8;
+  box-shadow: 0 10px 24px rgba(32, 24, 16, 0.08);
+}
+
+.focus-kicker {
+  margin: 0 0 0.9rem;
+  color: #8b3a2e;
+  font-size: 0.76rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+}
+
+.focus-card h3 {
+  margin-top: 0;
+  margin-bottom: 0.55rem;
+  line-height: 1.1;
+}
+
+.focus-card p {
+  margin: 0;
+  line-height: 1.35;
+}
+
+.detail-list {
+  padding-left: 1.2rem;
+}
+
+.detail-list li + li {
+  margin-top: 0.6rem;
+}
+
+.now-section {
+  padding: 1.2rem 1.3rem;
+  border-left: 4px solid #8b3a2e;
+  background: rgba(249, 247, 242, 0.85);
+}
+
+.now-section p {
+  margin-bottom: 0;
+}

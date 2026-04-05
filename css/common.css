@@ -1,0 +1,27 @@
+.split-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -15px;
+}
+
+.split-layout {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.split-column {
+  flex: 1;
+  min-width: 300px;
+  padding: 0 15px;
+}
+
+@media (max-width: 768px) {
+  .split-layout {
+    gap: 1rem;
+  }
+
+  .split-column {
+    flex-basis: 100%;
+  }
+}
